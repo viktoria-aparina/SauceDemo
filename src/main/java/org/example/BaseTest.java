@@ -17,7 +17,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.get("http://the-internet.herokuapp.com/");
+        driver.get("https://www.saucedemo.com/");
     }
 
     @AfterMethod(alwaysRun = true)
